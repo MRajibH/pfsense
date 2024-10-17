@@ -63,7 +63,6 @@ core_pkg_create_repo() {
 		echo "Failed!"
 		print_error_pfS
 	fi
-
 	# Use the same directory structure as poudriere does to avoid
 	# breaking snapshot repositories during rsync
 	ln -sf $(basename ${CORE_PKG_REAL_PATH}) ${CORE_PKG_PATH}/.latest

@@ -54,10 +54,10 @@ if [ -f ${BUILD_CONF} ]; then
 fi
 
 # Define pfSense versions
-PKG_REPO_BRANCH_DEVEL="devel"
+PKG_REPO_BRANCH_DEVEL="v2_7_2"
 #PKG_REPO_BRANCH_NEXT="v2_7_0"
 PKG_REPO_BRANCH_RELEASE="v2_7_2"
-PKG_REPO_BRANCH_PREVIOUS="v2_5_2"
+PKG_REPO_BRANCH_PREVIOUS="v2_7_1"
 
 # Make sure pkg will not be interactive
 export ASSUME_ALWAYS_YES=true
